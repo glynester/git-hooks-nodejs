@@ -4,7 +4,7 @@
   "description": "Demonstrate auto git hooks using helper packages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/glynester/git-hooks-nodejs/issues"
   },
-  "homepage": "https://github.com/glynester/git-hooks-nodejs#readme"
+  "homepage": "https://github.com/glynester/git-hooks-nodejs#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
