@@ -4,7 +4,8 @@
   "description": "Demonstrate auto git hooks using helper packages",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src/**"
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,13 @@
   "homepage": "https://github.com/glynester/git-hooks-nodejs#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm run lint && npm test"
     }
   },
   "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
     "husky": "^4.3.8",
     "jest": "^27.5.1"
   }
