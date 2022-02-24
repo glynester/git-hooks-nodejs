@@ -11,22 +11,20 @@
     "url": "git+https://github.com/glynester/git-hooks-nodejs.git"
   },
   "keywords": [
-    "git",
-    "hooks",
+    "git hooks",
     "node"
   ],
   "author": "gb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/glynester/git-hooks-nodejs/issues"
+    "url": "https://github.com/glynester/git-hooks-nodejs"
   },
   "homepage": "https://github.com/glynester/git-hooks-nodejs#readme",
+  "pre-commit": [
+    "test"
+  ],
   "devDependencies": {
     "husky": "^4.3.8",
-    "jest": "^27.5.1",
-    "pre-commit": "^1.2.2"
-  },
-  "pre-commit":[
-    "test"
-  ]
+    "jest": "^27.5.1"
+  }
 }
