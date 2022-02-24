@@ -20,9 +20,11 @@
     "url": "https://github.com/glynester/git-hooks-nodejs"
   },
   "homepage": "https://github.com/glynester/git-hooks-nodejs#readme",
-  "pre-commit": [
-    "test"
-  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "devDependencies": {
     "husky": "^4.3.8",
     "jest": "^27.5.1"
