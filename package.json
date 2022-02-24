@@ -1,0 +1,24 @@
+{
+  "name": "git-hooks-nodejs",
+  "version": "1.0.0",
+  "description": "Demonstrate auto git hooks using helper packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glynester/git-hooks-nodejs.git"
+  },
+  "keywords": [
+    "git",
+    "hooks",
+    "node"
+  ],
+  "author": "gb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glynester/git-hooks-nodejs/issues"
+  },
+  "homepage": "https://github.com/glynester/git-hooks-nodejs#readme"
+}
